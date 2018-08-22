@@ -1,0 +1,21 @@
+{
+  "funds":
+  [
+    {
+    "author": "Blaine Blevins",
+    "name": "Help me get to the moon",
+    "description": "I recently graduated college with my degree in English and I need to travel to inspire the novel that I am writing. I figure the moon would be the perfect place to travel, work and live. Anything helps!",
+    "type": "travel",
+    "currentFunds": 0,
+    "goal": 500000
+  },
+  {
+  "author": "Peter Peters",
+  "name": "My dog died",
+  "description": "My 24 year old poodle mix Perkins passed away and I'm sad. Need money for icecream, please help. The pain.",
+  "type": "memorial",
+  "currentFunds": 0,
+  "goal": 6
+}
+  ]
+}

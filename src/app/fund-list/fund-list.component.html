@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Funds</h1>
+  <h3>Here are a list of funds you can view and contribute to.</h3>
+  <div *ngFor="let fund of funds | async" class="card card-title">
+    <div class="card-body">
+      <h3>{{fund.name}}</h3>
+      <p>Fund Created By: {{fund.author}}</p>
+      <hr>
+      <p>Fund currently has ${{fund.currentFunds}} out of it's ${{fund.goal}} goal.</p>
+      <button (click)="goToFundPage(fund)">Learn More!</button>
+    </div>
+  </div>
+</div>

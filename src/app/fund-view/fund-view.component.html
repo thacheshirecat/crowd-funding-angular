@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>{{(fundToDisplay | async)?.name}}</h1>
+  <h3>By: {{(fundToDisplay | async)?.author}}</h3>
+  <p>Current Funds: ${{(fundToDisplay | async)?.currentFunds}}
+  <p>Goal: ${{(fundToDisplay | async)?.goal}}
+  <hr>
+  <div class="card">
+    <p>{{(fundToDisplay | async)?.description}}</p>
+  </div>
+  <hr>
+</div>
